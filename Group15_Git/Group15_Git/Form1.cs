@@ -27,5 +27,11 @@ namespace Group15_Git
             Altus alt = new Altus();
             alt.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            David daf = new David();
+            daf.Show();
+        }
     }
 }
