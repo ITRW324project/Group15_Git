@@ -89,5 +89,15 @@ namespace Group15_Git
                 amount[j] = ran.Next(1, 50);
             return amount.Average();
         }
+
+        public double generate_number(int i)
+        {
+            Random ran = new Random();
+            int[] amount = new int[50];
+            for (int j = 0; j < i; j++)
+                amount[j] = ran.Next(1, 50);
+            return amount.Max();
+
+        }
     }
 }
