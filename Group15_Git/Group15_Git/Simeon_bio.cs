@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace Group15_Git
 {
-    public partial class Form1 : Form
+    public partial class Simeon_bio : Form
     {
-        public Form1()
+        public Simeon_bio()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Simeon_bio frm = new Simeon_bio();
-            frm.Show();
+            ClcMin c = new ClcMin();
+            MessageBox.Show(Convert.ToString(c.calcMinimum(Convert.ToInt32(textBox2.Text))));
         }
     }
 }
