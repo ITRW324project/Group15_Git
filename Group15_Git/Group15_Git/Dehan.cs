@@ -19,16 +19,23 @@ namespace Group15_Git
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int test = Int32.Parse(textBox1.Text);
+            try
+            {
+                int test = Int32.Parse(textBox1.Text);
 
-            Except exc = new Except();
-            if (exc.BetweenTest(Convert.ToInt32(textBox1.Text)) == true)
-                MessageBox.Show("Between 5 and 20");
-            else
-                MessageBox.Show("Not Between 5 and 20");
+                Except exc = new Except();
+                if (exc.BetweenTest(Convert.ToInt32(textBox1.Text)) == true)
+                    MessageBox.Show("Between 5 and 20");
+                else
+                    MessageBox.Show("Not Between 5 and 20");
 
-            DehanSum num = new DehanSum();
-            MessageBox.Show(Convert.ToString(num.generate_number(Convert.ToInt32(textBox1.Text))));
-        }
+                DehanSum num = new DehanSum();
+                MessageBox.Show(Convert.ToString(num.generate_number(Convert.ToInt32(textBox1.Text))));
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show(textBox1.Text + " is not an integer.  Try again!!");
+            }
+}
     }
 }
