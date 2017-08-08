@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace Group15_Git
 {
-    public partial class Form1 : Form
+    public partial class Altus : Form
     {
-        public Form1()
+        public Altus()
         {
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Altus alt = new Altus();
-            alt.Show();
+            CalcCount count = new CalcCount();
+            MessageBox.Show(textBox2.Text);
         }
     }
 }
