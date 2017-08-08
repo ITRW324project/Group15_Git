@@ -39,5 +39,11 @@ namespace Group15_Git
             Simeon sim = new Simeon();
             sim.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Dehan frm = new Dehan();
+            frm.Show();
+        }
     }
 }

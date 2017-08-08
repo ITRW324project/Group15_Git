@@ -61,6 +61,13 @@
     <Compile Include="David.Designer.cs">
       <DependentUpon>David.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dehan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dehan.Designer.cs">
+      <DependentUpon>Dehan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DehanSum.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="David.resx">
       <DependentUpon>David.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dehan.resx">
+      <DependentUpon>Dehan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
