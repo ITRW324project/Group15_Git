@@ -10,22 +10,17 @@ using System.Windows.Forms;
 
 namespace Group15_Git
 {
-    public partial class Form1 : Form
+    public partial class Dehan : Form
     {
-        public Form1()
+        public Dehan()
         {
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Dehan han = new Dehan();
-            han.Show();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            
+            DehanSum num = new DehanSum();
+            MessageBox.Show(Convert.ToString(num.generate_number(Convert.ToInt32(textBox1.Text))));
         }
     }
 }
