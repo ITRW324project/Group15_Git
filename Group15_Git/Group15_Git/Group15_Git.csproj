@@ -45,7 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="CalcMed.cs" />
     <Compile Include="Altus.cs">
       <SubType>Form</SubType>
@@ -62,9 +61,7 @@
     <Compile Include="David.Designer.cs">
       <DependentUpon>David.cs</DependentUpon>
     </Compile>
-=======
     <Compile Include="AvgJennifer.cs" />
->>>>>>> Jennifer_Branch
     <Compile Include="Dehan.cs">
       <SubType>Form</SubType>
     </Compile>
