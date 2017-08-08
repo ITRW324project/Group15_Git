@@ -33,5 +33,11 @@ namespace Group15_Git
             David daf = new David();
             daf.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Simeon sim = new Simeon();
+            sim.Show();
+        }
     }
 }
