@@ -16,16 +16,28 @@ namespace Group15_Git
         {
             InitializeComponent();
         }
-
-        private void button5_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Dehan han = new Dehan();
-            han.Show();
+            Stephan_Form ss = new Stephan_Form();
+            ss.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Altus alt = new Altus();
+            alt.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            
+            David daf = new David();
+            daf.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Simeon sim = new Simeon();
+            sim.Show();
         }
     }
 }
