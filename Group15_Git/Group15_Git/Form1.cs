@@ -45,5 +45,11 @@ namespace Group15_Git
             Dehan frm = new Dehan();
             frm.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Jennifer jen = new Jennifer();
+            jen.Show();
+        }
     }
 }
