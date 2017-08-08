@@ -16,18 +16,16 @@ namespace Group15_Git
         {
             InitializeComponent();
         }
-
-<<<<<<< HEAD
         private void button2_Click(object sender, EventArgs e)
         {
             Stephan_Form ss = new Stephan_Form();
             ss.Show();
-=======
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             Altus alt = new Altus();
             alt.Show();
->>>>>>> develop
         }
     }
 }
