@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace Group15_Git
 {
-    public partial class Form1 : Form
+    public partial class Stephan_Form : Form
     {
-        public Form1()
+        public Stephan_Form()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Stephan_Form ss = new Stephan_Form();
-            ss.Show();
+            CalcMed c = new CalcMed();
+            MessageBox.Show("Median: " + Convert.ToString(c.calcMed(Convert.ToInt32(textBox2.Text))));
         }
     }
 }
